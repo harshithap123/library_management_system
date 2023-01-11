@@ -22,11 +22,11 @@ const Userlogin = () => {
                         <div className="up">
                         <div className="email">
                         <label htmlFor="">Email</label>
-                        <input required type="email" value={email} onChange={(e)=>setemail(e.target.value)} placeholder="Enter email"/>
+                        <input type="email" value={email} onChange={(e)=>setemail(e.target.value)} placeholder="Enter email"/>
                         </div>
                         <div className="password">
                         <label htmlFor="">Password</label>
-                        <input required type="password" value={password} onChange={(e)=>setpassword(e.target.value)} placeholder="Enter password"/>
+                        <input type="password" value={password} onChange={(e)=>setpassword(e.target.value)} placeholder="Enter password"/>
                         </div>
                         </div>
                         <button className="btn-btn-primary">Login</button>

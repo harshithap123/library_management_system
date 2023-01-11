@@ -1,5 +1,5 @@
 import '../styles/adminnavbar.css'
-import { Link,NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Adminnavbar = () => {
     return ( 
         <div className="mainnav">
