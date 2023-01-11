@@ -1,0 +1,78 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.landingpage{
+    background-image: url('/public/images/new1.jpeg');
+    height: 100vh;  /*increase to full height*/
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    background-color: rgba(255, 255, 255, 0.687); 
+    height: 300px;
+    width: 480px; 
+    margin-left: 390px; 
+    position: absolute;
+    margin-top: 140px;
+    border-radius: 30px;
+    border: 5px solid rgba(138, 65, 13, 0.85);
+    
+}
+.main h1{
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 50px;
+    color: rgba(169, 75, 8, 0.85);
+    font-family: sans-serif;
+}
+.admin{
+    display: block;
+    margin-right: 30px;
+}
+.user{
+    display: block;
+    margin-left: 30px;
+}
+.admin,.user{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.admin,.user img{
+    display: inline-block;
+    align-items: center;
+    margin-top: 40px;
+}
+.admin img{
+    margin-left: 24px;
+}
+.adminlink {
+    color: orange;
+    border: 1px solid orange;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.adminlink:hover{
+    color: white;
+    background-color: orange;
+}
+.user img{
+    margin-left: 18px;
+}
+.userlink{
+    color: green;
+    border: 1px solid green;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.userlink:hover{
+    color: white;
+    background-color: green;
+}

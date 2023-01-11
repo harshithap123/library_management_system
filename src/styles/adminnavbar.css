@@ -1,0 +1,40 @@
+body,html{
+    margin: 0px;
+    padding: 0px;  
+}
+.mainnav{
+    height: 11vh;
+}
+.navele .active{
+    color: yellow;
+}
+.adminnav{
+    background-color:rgb(169, 75, 8);
+    color: white;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.adminnav h1{
+    font-size: 20px;
+    margin: 15px 0px;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+.links{
+    text-decoration: none;
+    margin: 15px 5px;
+    margin-left: 40px;
+    justify-content: end;
+    color: white;
+}
+.navele{
+    margin: 15px 0px;
+    margin-left: 250px;
+    padding: 0px 15px;
+    margin-right: 20px;
+}

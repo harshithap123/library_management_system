@@ -1,0 +1,12 @@
+.addbooks{
+    text-align: center;
+}
+.form input{
+    margin: 10px 0px;
+   width: 500px;
+   height: 30px;
+   padding-left: 10px;
+}
+.form input::placeholder{
+    justify-content: left;
+}

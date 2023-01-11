@@ -1,0 +1,38 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.userlogin{
+    background-image: url('/public/images/new1.jpeg');
+    height: 100vh;  /*increase to full height*/
+    background-size: cover;
+    background-position: center;
+}
+.forminput{
+    background-color: rgba(255, 255, 255, 0.687); 
+    height: 300px;
+    width: 480px; 
+    margin-left: 390px; 
+    position: absolute;
+    margin-top: 140px;
+    border-radius: 30px;
+    border: 5px solid rgba(138, 65, 13, 0.85);
+    
+}
+.form h1{
+    justify-content: center;
+    font-size: 26px;
+    margin: 30px 50px;
+    color: rgba(169, 75, 8, 0.85);
+    font-family: sans-serif;
+}
+.email input{
+    width:375px;
+}
+.password input{
+    width: 375px;
+}
+.up{
+    margin-top: -15px;
+}
