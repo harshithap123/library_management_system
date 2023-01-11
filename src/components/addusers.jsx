@@ -25,7 +25,7 @@ const Addusers = () => {
     }
     return ( 
         <div className="addusers">
-            <h1>Adding users</h1>
+            <h1>Add users</h1>
             <div className="form">
                 <form action="" onSubmit={handlesubmit}>
                     <div className="name">
